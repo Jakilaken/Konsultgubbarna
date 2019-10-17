@@ -80,3 +80,4 @@
  - 4.1
    - 4.1.1 ja
    - 4.1.2 ja?
+ - Länken: https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0&currentsidebar=%23col_customize&levels=aaa&technologies=wai-aria%2Cjs%2Cserver%2Csmil%2Cpdf%2Cflash%2Csl&showtechniques=133%2C211#col_customize
