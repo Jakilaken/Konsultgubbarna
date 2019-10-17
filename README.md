@@ -47,4 +47,36 @@
   - 1.4.4 ja
   - 1.4.5 ja
 - 2.1
-  - 2.1.1 
+  - 2.1.1 ja, men den är otydlig (gäller ej kontakt)
+  - 2.1.2 ja, men inte optimal
+- 2.2
+  - 2.2.1 finns inte
+  - 2.2.2 ja
+- 2.3
+  - 2.3.1 ja
+- 2.4
+  - 2.4.1 ja
+  - 2.4.2 ja
+  - 2.4.3 ja
+  - 2.4.4 ja
+  - 2.4.5 ja
+  - 2.4.6 ja
+  - 2.4.7 ja
+ - 2.5 
+   - ja
+ - 3.1
+   - 3.1.1 ja
+   - 3.1.2 ja
+ - 3.2
+   - 3.2.1 ja
+   - 3.2.2 ja
+   - 3.2.3 ja
+   - 3.2.4 nja, kan förbättras
+ - 3.3
+   - 3.3.1 ?
+   - 3.3.2 ja
+   - 3.3.3 ?
+   - 3.3.4 Vi har ingen dtabas
+ - 4.1
+   - 4.1.1 ja
+   - 4.1.2 ja?
