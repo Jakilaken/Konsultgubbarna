@@ -512,8 +512,6 @@ form
     }
 }   
 
-
-
 /* ========================== */
 /* -------- Meny bar -------- */
 /* ========================== */
@@ -595,7 +593,8 @@ form
     background-color: #C0C0C0;
     text-align: center;  
     opacity: 0.95; 
-  }  
+  } 
+
   .block1 
   {
     color: white;
@@ -620,7 +619,6 @@ form
     z-index: -1;
   }
       
- 
   .block2 
   {
     display: inline-block;
