@@ -22,9 +22,10 @@
 ## Kolla fel
 - Kör och kolla så att inga fel finns
 
-## Validdering
+## Validering
 ### WCAG
-- 1.1 ja
+- 1.1
+  - 1.1.1 ja
 - 1.2 innehåller ej video/ljud
   - 1.2.1 innehåller ej
   - 1.2.2 innehåller ej
@@ -45,4 +46,4 @@
   - 1.4.3 ja
   - 1.4.4 ja
   - 1.4.5 ja
-  - 
+  - 1.4.6 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Titel -->
+    <title>Document</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <!-- Scripts -->
+    <script src="../scripts/contact.js"></script>
+</head>
+
+<!-- Body -->
+<body>
+    <!-- Meny -->
+    <section class="sliderbar">
+        <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Hem</a>
+            <a href="./innehåll.html">Innehåll</a>
+            <a href="./about.html">Om oss</a>
+            <a href="#">Kontakt</a>
+        </nav>
+
+        <aside id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </aside>
+    </section>
+
+    <!-- Innehåll -->
+    <section class="rad">
+        <section class="col-3 col-s-3">
+            <div class="kontakt">
+                <h3>Kontakta oss!</h3>
+                <p>
+                    <strong>Jöns Jönsson</strong><br>
+                    VD<br>
+                    <a href="tel:031-918548">031-918548</a><br>
+                    <a href="mailto: s184597@student.hb.se">E-post</a>
+                </p>
+                <p>
+                    <strong>Per Persson</strong><br>
+                    Konsult<br>
+                    <a href="tel:031-918548">031-918548</a><br>
+                    <a href="mailto: s184597@student.hb.se">E-post</a>
+                </p>
+                <p>
+                    <strong>Jürgen Jürgensén</strong><br>
+                    Konsult<br>
+                    <a href="tel:031-918548">031-918548</a><br>
+                    <a href="mailto: s184597@student.hb.se">E-post</a>
+                </p>
+                <p>
+                    <strong>Mads Madsen</strong><br>
+                    Konsult<br>
+                    <a href="031-918548">031-918548</a><br>
+                    <a href="mailto: s184597@student.hb.se">E-post</a>
+                </p>
+            </div>
+        </section>
+        <section class="col-6 col-s-9">
+            <div class="text">
+                <h2>Konsultgubbarna</h2>
+                <p>Tveka aldrig på att kontakta Konsultgubbarna i Göteborg, vilka behov du än har!</p>
+            </div>
+        </section>
+        <aside class="col-3 col-s-12">
+            <div class="formulär">
+                <form action="mailto:s184597@student.hb.se" method="post" enctype="text/plain">
+                    Förnamn:<br>
+                    <input type="text" name="förnamn" id="förnamn"><br>
+                    Efternamn:<br>
+                    <input type="text" name="efternamn" id="efternamn"><br>
+                    E-postadress:<br>
+                    <input type="text" name="e-post" id="e-post"><br>
+                    Meddelande:<br>
+                    <textarea name="meddelande" id="meddelande" cols="23" rows="10"></textarea><br>
+                    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet">
+                </form>
+            </div>
+        </aside>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="fot">
+        <h4>Besöksadress</h4>
+        Bautastensgatan 7 B<br>
+        418 76<br>
+        Göteborg<br>
+    </footer>
+</body>
+
+</html>
