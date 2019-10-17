@@ -19,3 +19,5 @@
 ## Fungerande sida
 - Sätt en "." framför varje / i början av varje länk.
 
+## Kolla fel
+- Kör och kolla så att inga fel finns
