@@ -21,3 +21,5 @@
 
 ## Kolla fel
 - Kör och kolla så att inga fel finns
+
+## Validdering
