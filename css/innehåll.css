@@ -1,127 +1,134 @@
 .center
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 body 
 {
-    height: 100%;
-    background: linear-gradient(90deg, #000000 50%, #DEDEDE 50%);
+  height: 100%;
+  background: linear-gradient(90deg, #000000 50%, #DEDEDE 50%);
 }
 
 h3
 { 
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 h1.Ett
 {
-    color: white;
-    position: absolute;
-    right: 50%;
+  color: white;
+  position: absolute;
+  right: 50%;
 }
 
 h1.Två
 {
-    color: black;
-    position: absolute;
-    left: 50%;
+  color: black;
+  position: absolute;
+  left: 50%;
 }
 
-span.block1 
+
+.block1 
 {
-    color: white;
-    display: inline-block;
-    width: 5%;
-    height: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 20%;
-    padding-top: 16%;
-    position: absolute;
-    left: 10%;
-    bottom: 50%;
-    border: 1px solid white;    
-    background-color: grey; 
-    background-color: transparent; 
-    background-image: url("../images/Jackovetigen.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: 50% 50%;  
-    animation:slide2 35s infinite; 
-    z-index: -1;
+  color: white;
+  display: inline-block;
+  width: 5%;
+  height: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  padding-top: 16%;
+  position: absolute;
+  left: 10%;
+  bottom: 50%;
+  border: 1px solid white;    
+  background-color: grey; 
+  background-color: transparent; 
+  background-image: url("../images/Jackovetigen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: 50% 50%;  
+  animation:slide2 35s infinite; 
+  z-index: -1;
 }
 
 .block2 
 {
-    display: inline-block;
-    width: 5%;
-    height: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 20%;
-    padding-top: 16%;
-    position: absolute;
-    right: 10%;
-    bottom: 50%;
-    border: 2px solid grey;    
-    background-color: black; 
-    color: white;
-    background-color: transparent; 
-    background-image:url("../images/Jackovet.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: 50% 50%;  
-    animation:slide 35s infinite;
-    z-index: -1;
+  display: inline-block;
+  width: 5%;
+  height: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  padding-top: 16%;
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+  border: 2px solid grey;    
+  background-color: black; 
+  color: white;
+  background-color: transparent; 
+  background-image:url("../images/Jackovet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: 50% 50%;  
+  animation:slide 35s infinite;
+  z-index: -1;
 }
 
 span.block3 
 {
-    display: inline-block;
-    width: 80%;
-    height: 20%;
-    position: absolute;
-    left: 10%;
-    bottom: 25%;
-    border: 2px solid gray;
-    background-color: #C0C0C0;
-    text-align: center;   
-    opacity: 0.95;   
+  display: inline-block;
+  width: 80%;
+  height: 20%;
+  position: absolute;
+  left: 10%;
+  bottom: 25%;
+  border: 2px solid gray;
+  background-color: #C0C0C0;
+  text-align: center;   
+  opacity: 0.95;   
 }
 
 @keyframes  slide 
 {
-    0%{
-      background-image:url("../images/Jackovet.jpg");
-    }
+  0%
+  {
+    background-image:url("../images/Jackovet.jpg");
+  }
   
-    25%{
-      background-image:url("../images/innehåll/bakgrundsbild.jpg");
-    }
+  25%
+  {
+    background-image:url("../images/innehåll/bakgrundsbild.jpg");
+  }
   
-    50%{
-      background-image:url("../images/innehåll/computer.jpg");
-    }
+  50%
+  {
+    background-image:url("../images/innehåll/computer.jpg");
+  }
 }
       
 @keyframes  slide2 
 {
-      0%{
-        background-image: url("../images/Jackovetigen.jpg");
-      }
+  0%
+  {
+    background-image: url("../images/Jackovetigen.jpg");
+  }
       
-      25%{
-        background-image:url("../images/jonez.jpg");
-      }
+  25%
+  {
+    background-image:url("../images/jonez.jpg");
+  }
       
-      50%{
-        background-image:url("../images/Jackovet.jpg");
-      }
+  50%
+  {
+    background-image:url("../images/Jackovet.jpg");
+  }
 }
 
 h3
@@ -141,29 +148,29 @@ p
 
 input[type=text] 
 {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 form
 {
-    color: white;
-    position: absolute;
-    bottom: 0%;
+  color: white;
+  position: absolute;
+  bottom: 0%;
 }
 
 .text
 {
-    position: absolute;
-    bottom: 0%;
+  position: absolute;
+  bottom: 0%;
 }
 
 .sok
 {
-    position: absolute;
-    bottom: 100%;
+  position: absolute;
+  bottom: 100%;
 }
 
 /* Fixar om efter storlek på skärm */
@@ -194,44 +201,45 @@ form
     padding-top: 60px;
   }
 
-    .sidenav a 
-    {
+  .sidenav a 
+  {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-    }
+  }
 
-    .sidenav a:hover 
-    {
+  .sidenav a:hover 
+  {
     color: #f1f1f1;
-    }
+  }
 
-    .sidenav .closebtn 
-    {
+  .sidenav .closebtn 
+  {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    }
+  }
 
-    #main 
-    {
+  #main 
+  {
     transition: margin-left .5s;
     padding-right: 2%;
     padding-left: 2%;
     padding-bottom: 2%;
     padding-top: 2%;
     color: grey;
-    }
+  }
 }
 
 @media only screen and (min-width: 1100px)
 {
-  .logga {
+  .logga 
+  {
     position: absolute;
     width: 20%;
     height: auto;
@@ -244,7 +252,8 @@ form
 {
 
 
-  .logga {
+  .logga 
+  {
     position: absolute;
     width: 15%;
     height: auto;
@@ -255,7 +264,8 @@ form
 
 @media only screen and (min-width: 1600px) 
 {
-  .logga {
+  .logga 
+  {
     position: absolute;
     width: 10%;
     height: auto;
@@ -266,7 +276,7 @@ form
 
 @media only screen and (min-width: 750px) 
 {
-    span.block1 
+    .block1 
     {
       color: white;
       display: inline-block;
@@ -307,11 +317,11 @@ form
       color: white;
        background-color: transparent; 
       background-image:url("../images/Jackovet.jpg");
-       background-size: cover;
-       background-repeat: no-repeat; 
-       background-position: 50% 50%;  
-       animation:slide 35s infinite;
-       z-index: -1;
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: 50% 50%;  
+      animation:slide 35s infinite;
+      z-index: -1;
     }
   
     span.block3 
@@ -331,90 +341,90 @@ form
 
 @media only screen and (min-width: 1150px) 
 {
-    span.block1 
+    .block1 
     {
-        color: white;
-        display: inline-block;
-        width: 5%;
-        height: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
-        padding-bottom: 20%;
-        padding-top: 10%;
-        position: absolute;
-        left: 15%;
-        bottom: 25%;
-        border: 1px solid white;    
-        background-color: grey; 
-        background-color: transparent; 
-        background-image: url("../images/Jackovetigen.jpg");
-        background-size: cover;
-        background-repeat: no-repeat; 
-        background-position: 50% 50%;  
-        animation:slide2 35s infinite; 
-        z-index: -1;
+      color: white;
+      display: inline-block;
+      width: 5%;
+      height: 5%;
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-bottom: 20%;
+      padding-top: 10%;
+      position: absolute;
+      left: 15%;
+      bottom: 25%;
+      border: 1px solid white;    
+      background-color: grey; 
+      background-color: transparent; 
+      background-image: url("../images/Jackovetigen.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: 50% 50%;  
+      animation:slide2 35s infinite; 
+      z-index: -1;
     } 
     
     .block2 
     {
-        display: inline-block;
-        width: 5%;
-        height: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
-        padding-bottom: 20%;
-        padding-top: 10%;
-        position: absolute;
-        right: 15%;
-        bottom: 25%;
-        border: 2px solid grey;    
-        background-color: black; 
-        color: white;
-         background-color: transparent; 
-        background-image:url("../images/Jackovet.jpg");
-         background-size: cover;
-         background-repeat: no-repeat; 
-         background-position: 50% 50%;  
-         animation:slide 35s infinite;
-         z-index: -1;
+      display: inline-block;
+      width: 5%;
+      height: 5%;
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-bottom: 20%;
+      padding-top: 10%;
+      position: absolute;
+      right: 15%;
+      bottom: 25%;
+      border: 2px solid grey;    
+      background-color: black; 
+      color: white;
+      background-color: transparent; 
+      background-image:url("../images/Jackovet.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: 50% 50%;  
+      animation:slide 35s infinite;
+      z-index: -1;
     }
 
     span.block3 
     {
-        display: inline-block;
-        width: 50%;
-        height: 20%;
-        position: absolute;
-        left: 50%;
-        bottom: 0%;
-        border: 2px solid gray;
-        background-color: #C0C0C0;
-        text-align: center;  
-        opacity: 0.95; 
+      display: inline-block;
+      width: 50%;
+      height: 20%;
+      position: absolute;
+      left: 50%;
+      bottom: 0%;
+      border: 2px solid gray;
+      background-color: #C0C0C0;
+      text-align: center;  
+      opacity: 0.95; 
     }
 
     
     ul 
     {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
     }
   
     li 
     {
-        float: left;
+      float: left;
     }
   
     li a 
     {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
   
   li a:hover 
@@ -425,31 +435,30 @@ form
 
 @media only screen and (max-width: 750px) 
 {
-    span.block1 
+    .block1 
     {
-        color: white;
-        display: inline-block;
-        width: 5%;
-        height: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
-        padding-bottom: 20%;
-        padding-top: 16%;
-        position: absolute;
-        left: 10%;
-        bottom: 55%;
-        border: 1px solid white;    
-        background-color: grey; 
-        background-color: transparent; 
-        background-image: url("/images/Jackovetigen.jpg");
-        background-size: cover;
-        background-repeat: no-repeat; 
-        background-position: 50% 50%;  
-        animation:slide2 35s infinite; 
-        z-index: -1;
+      color: white;
+      display: inline-block;
+      width: 5%;
+      height: 5%;
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-bottom: 20%;
+      padding-top: 16%;
+      position: absolute;
+      left: 10%;
+      bottom: 55%;
+      border: 1px solid white;    
+      background-color: grey; 
+      background-color: transparent; 
+      background-image: url("../images/Jackovetigen.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: 50% 50%;  
+      animation:slide2 35s infinite; 
+      z-index: -1;
     }
-        
-      
+         
     .block2 
     {
         display: inline-block;
@@ -466,43 +475,40 @@ form
         background-color: black; 
         color: white;
         background-color: transparent; 
-        background-image:url("/images/Jackovet.jpg");
+        background-image:url("../images/Jackovet.jpg");
         background-size: cover;
         background-repeat: no-repeat; 
         background-position: 50% 50%;  
         animation:slide 35s infinite;
-        z-index: -1;
+      z-index: -1;
     }
-      
-       
       
     span.block3 
     {
-        display: inline-block;
-        width: 80%;
-        height: 20%;
-        position: absolute;
-        left: 10%;
-        bottom: 30%;
-        border: 2px solid gray;
-        background-color: #C0C0C0;
-        text-align: center;  
-        opacity: 0.95; 
+      display: inline-block;
+      width: 80%;
+      height: 20%;
+      position: absolute;
+      left: 10%;
+      bottom: 30%;
+      border: 2px solid gray;
+      background-color: #C0C0C0;
+      text-align: center;  
+      opacity: 0.95; 
     }
-
 
     h3
     {
-        color: white;
-        position: absolute;
-        bottom: 26%;
+      color: white;
+      position: absolute;
+      bottom: 26%;
     }
       
     p
     {
-        color: white;
-        position: absolute;
-        bottom: 24%;
+      color: white;
+      position: absolute;
+      bottom: 24%;
     }
 }   
 
@@ -513,55 +519,129 @@ form
 /* ========================== */
 .sidenav 
 {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
       
 .sidenav a 
 {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
       
 .sidenav a:hover 
 {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
       
 .sidenav .closebtn
 {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
       
 #main 
 {
-    font-size:30px;
-    cursor:pointer;
-    position: fixed;
-    top: 14%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+  font-size:30px;
+  cursor:pointer;
+  position: fixed;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: margin-left .5s;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  color: #777;
+}
+
+@media only screen and (max-height: 400px)  
+{
+  #main 
+  {
     transition: margin-left .5s;
     padding-right: 2%;
     padding-left: 2%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    color: #777;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    color: grey;
+  } 
+
+  span.block3 
+  {
+    display: inline-block;
+    width: 30%;
+    height: 35%;
+    position: absolute;
+    left: 66%;
+    bottom: 0%;
+    border: 2px solid gray;
+    background-color: #C0C0C0;
+    text-align: center;  
+    opacity: 0.95; 
+  }  
+  .block1 
+  {
+    color: white;
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    position: absolute;
+    left: 20%;
+    bottom: 45%;
+    border: 1px solid white;    
+    background-color: grey; 
+    background-color: transparent; 
+    background-image: url("../images/Jackovetigen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;  
+    animation:slide2 35s infinite; 
+    z-index: -1;
+  }
+      
+ 
+  .block2 
+  {
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    position: absolute;
+    right: 20%;
+    bottom: 45%;
+    border: 2px solid grey;    
+    background-color: black; 
+    color: white;
+    background-color: transparent; 
+    background-image:url("../images/Jackovet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;  
+    animation:slide 35s infinite;
+    z-index: -1;
+  }
 }

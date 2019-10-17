@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- Head -->
+
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -19,48 +20,47 @@
 </head>
 
 <!-- Body -->
+
 <body>
     <!-- Loggo image -->
     <img class="logga" onclick="window.location.href='../index.html'" src="../images/Consultlogga.png" alt="Logga">
 
     <!-- Meybaren  -->
-    <div class="sliderbar">
-        <div id="mySidenav" class="sidenav">
+    <nav class="sliderbar">
+        <nav id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="../index.html">Hem</a>
             <a href="#">Innehåll</a>
             <a href="#">Om oss</a>
             <a href="#">Kontakt</a>
-        </div>
+        </nav>
 
         <!-- Pop up menu -->
-        <div id="main">
+        <nav id="main">
             <span onclick="openNav()">&#9776;</span>
-        </div>
-    </div>
+        </nav>
+    </nav>
     <!-- Uppdelning backgrundsfärger -->
-    <div style="clear: both">
+    <section style="clear: both">
         <h1 class="Ett" style="float: left"> Inne </h1>
         <h1 class="Två" style="float: right"> håll </h1>
-    </div>
+    </section>
 
     <!-- Sätter box på svart del -->
-    <div> <span class="block1">
-
-        </span> </div>
+    <section class="block1"> </section>
 
     <!-- Sätter box på vit del -->
-    <div class="block2">
-        <div class="textcontain"></div>
-    </div>
+    <section class="block2"></section>
 
     <!-- Textbox på vit del -->
-    <div> <span class="block3">
+    <article>
+        <span class="block3">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Hic, non. Ex provident molestias
             unde ab consequatur reprehenderit ullam voluptatum sed corporis sequi hic
             nemo assumenda
-        </span> </div>
+        </span>
+    </article>
 
     <!-- Sök på svart del -->
     <form>
@@ -70,4 +70,5 @@
         <input type="text" id="hittat" name="hittat">
     </form>
 </body>
+
 </html>
