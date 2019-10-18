@@ -1,719 +1,948 @@
-* {box-sizing: border-box}
+@media screen and (max-width: 768px) {
 
-body {font-family: Verdana, sans-serif; margin:0}
+    #primary { width:100%; }
 
-.mySlides {display: none}
+    #secondary { width:100%; margin:0; border:none; }
 
-img {vertical-align: middle;}
+    * {box-sizing: border-box}
 
-body
-{
-    background-color: #303030;
-}
 
-.Searchbar 
-{
-    overflow: hidden;
-    position: absolute;
-    top: 2%;
-    right: 0%;    
-} 
 
-.Textkontakt
-{
-    color: white;
-}
+    body {font-family: Verdana, sans-serif; margin:0}
 
-button
-{
-    position: absolute;
-    top: 5%;
-    right: 0%;    
-}
-
-.linje1 
-{
-    position: absolute;
-    top: 8%;
-    left: 0%;
-    width: 100%;
-    height: 0%;
-    background-color: white;
-}
-    
-.linje2 
-{
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    width: 100%;
-    height: 0%;
-    padding-bottom: 2.5%;
-    background-color: white;
     
 
-}
+    .mySlides {display: none}
 
-.logga 
-{
+    
 
-    width: 25%;
-    height: 20%;
-    position: relative;
-    float: left;
-    transform: translate(10%, 10%);
-        
-} 
+    img {vertical-align: middle;}
 
-.sidenav 
-{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-      
-.sidenav a 
-{
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-      
-.sidenav a:hover 
-{
-    color: #f1f1f1;
-}
-      
-.sidenav .closebtn
-{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-      
-#main 
-{
-    font-size:30px;
-    cursor:pointer;
-    position: fixed;
-    top: 17%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: margin-left .5s;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    color: grey;
-}
+    
 
-.fa 
-{
-    padding: 10px;
-    font-size: 20px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
+    body
 
-.fa:hover 
-{
-    opacity: 0.7;
-}
+    {
 
+        background-color: #303030;
 
-.fa-twitter 
-{
-    background: #55ACEE;
-}
+    }
 
-.fa-facebook 
-{
-    background: #3B5998;
-}
-
-.fa-twitter, .fa-facebook 
-{
-    color: white;
-    position: relative;
-    float: right;
-    transform: translate(-50%, 150%);
-    padding: 5px;
-}
-
-/* Slideshow container */
-.slideshow-container 
-{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-
-  /* Next & previous knappar */
-  .prev, .next 
-  {
-    cursor: pointer;
-    position: fixed;
-    top: 50%;
-    width: 1%;
-    color: white;
-    font-weight: bold;
-    transition: 0.6s ease;
-  }
-
-  /* Sätt position för nästa samt tidigare */
-  .next 
-  {
-    right: 5%;
-  }
-
-  .prev 
-  {
-    left: 5%;
-  }
-
-  /* 
-  * RGB(x,y,z,a)
-  * a besktiver opacity
-  */
-  .prev:hover, .next:hover 
-  {
-    background-color: rgba(0,0,0,0.8);
-  }
-
-.active, .dot:hover {
-
-background-color: #717171;
-
-}
-
-/* ----- Fading animation ----- */
-.fade 
-{
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade 
-{
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-@keyframes fade 
-{
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-.slider_pic
-{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 50%;
-    z-index: -1;
-}
-
-
-/* ============================= */
-/* --- Anpassning för skärm ---*/
-/* ============================= */
-@media only screen and (max-width: 374px) 
-{
+    
 
     .Searchbar 
+
     {
+
         overflow: hidden;
-        position: absolute;
-        top: 1%;
-        right: 0%;
-    }
 
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -20%);
-    }
-
-    #main 
-    {
-        font-size:30px;
-        cursor:pointer;
         position: fixed;
-        top: 17%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
 
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 80%);
-        padding: 5px;
-    }
-}
-
-@media only screen and (min-width: 320px) 
-{
-    .Searchbar 
-    {
-        overflow: hidden;
-        position: absolute;
-        top: 1%;
-        right: 0%;
-    }
-
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -15%);
-    }
-
-    #main 
-    {
-        position: fixed;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
-
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 30%);
-        padding: 5px;
-    }
-}
-
-@media only screen and (min-height: 800px) and (max-height: 1000px) 
-{
-    .Searchbar 
-    {
-        overflow: hidden;
-        position: absolute;
-        top: 2%;
-        right: 0%;
-    }
-
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, 5%);
-    }
-
-
-    #main 
-    {
-        position: fixed;
-        top: 17%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
-
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 150%);
-        padding: 5px;
-    }
-}
-
-
-@media only screen and (min-width: 499px) 
-{
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 80%);
-        padding: 5px;
-    }
-
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -10%);
-    }
-
-}
-
-@media only screen and (min-width: 650px) and (max-width: 764px)
-{
-    .logga 
-    {
-        width: 20%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -10%);
-    }
-
-}
-
-@media only screen and (min-width: 765px)  and (max-width: 799px) and (min-height: 1000px) and (max-height: 1040px)
-{
-    .logga 
-    {
-        width: 20%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, 20%);
-    }
-
-}
-
-@media only screen and (min-width: 750px) 
-{
-    .logga 
-    {
-        width: 15%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -10%);
-    }
-
-}
-
-@media only screen and (min-width: 711px) and (max-width: 749px) 
-{
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 250%);
-        padding: 5px;
-    }
-
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -5%);
-    }
-
-    #main 
-    {
-        font-size:45px;
-        cursor:pointer;
-        position: fixed;
-        top: 17%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
-}
-
-@media only screen and (min-width: 1000px) 
-{
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-40%, 50%);
-        padding: 5px;
-    }
-
-    .logga 
-    {
-        width: 25%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -35%);
-    }
-
-    .fa 
-    {
-        padding: 10px;
-        font-size: 20px;
-        width: 100px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-    }
-
-    #main 
-    {
-        font-size:70px;
-        cursor:pointer;
-        position: fixed;
-        top: 17%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
-
-    button
-    {
-        position: absolute;
-        top: 4%;
-        right: 0%;
-        width: 4%;
-        height: 4%;
-    }
-
-    .Textkontakt
-    {
-        color: white;
-        font-size: 40px;
-    }
-}
-
-@media only screen and (min-width: 1400px) 
-{
-    .logga {
-        width: 8%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -35%);
-    }
-
-    .Textkontakt
-    {
-        color: white;
-        font-size: 25px;
-    }
-
-    #main 
-    {
-        font-size:70px;
-        cursor:pointer;
-        position: fixed;
-        top: 14%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
-    }
-
-    .slider_pic
-    {
-        position: fixed;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 50%;
-        z-index: -1;
-    }
-
-    /* Next & previous buttons */
-    .prev, .next 
-    {
-        cursor: pointer;
-        position: fixed;
-        top: 60%;
-        width: 1%;
-        color: white;
-        font-weight: bold;
-        transition: 0.6s ease;
-    }
-
-    .fa 
-    {
-        padding: 10px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-    }
-
-    .fa:hover 
-    {
-        opacity: 0.7;
-    }
-
-
-    .fa-twitter 
-    {
-        background: #55ACEE;
-    }
-
-    .fa-facebook 
-    {
-        background: #3B5998;
-    }
-
-    .fa-twitter, .fa-facebook 
-    {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-50%, 0%);
-        padding: 5px;
-    }
-}
-
-@media only screen and (min-width: 1900px)
-{
-    .logga 
-    {
-        width: 8%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -20%);
-    }
-
-    .slider_pic
-    {
-        position: fixed;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 50%;
-        z-index: -1;
-    }
-
-    /* Next & previous buttons */
-    .prev, .next {
-        cursor: pointer;
-        position: fixed;
-        top: 60%;
-        width: 1%;
-        color: white;
-        font-weight: bold;
-        transition: 0.6s ease;
-    }
-}
-
-@media only screen and (min-width: 2500px)
-{
-    .logga
-    {
-        width: 1%;
-        height: 15%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -20%);
-    }
-}
-
-@media only screen and (max-height: 400px)  
-{
-    .Searchbar 
-    {
-        overflow: hidden;
-        position: absolute;
         top: 0%;
-        right: 0%;    
+
+        right: 0%;
+
+        max-width: 80%;
+
+          
+
     } 
 
+    
+
     .Textkontakt
+
     {
+
         color: white;
-        font-size: 10px;
+
+        position: fixed;
+
+        top: 3%;
+
+        left: 0%;
+
     }
+
+    
+
+    button
+
+    {
+
+        position: fixed;
+
+        top: 6%;
+
+        right: 0%;    
+
+    }
+
+    
+
+   /* .linje1 
+
+    {
+
+        position: fixed;
+
+        top: 10%;
+
+        left: 0%;
+
+        width: 100%;
+
+        background-color: white;
+
+    }
+
+        
+
+    .linje2 
+
+    {
+
+        position: fixed;
+
+        top: 22%;
+
+        left: 0%;
+
+        width: 100%;
+
+        background-color: white; 
+
+        
+
+    
+
+    } */
+
+    
 
     .logga 
+
     {
-        width: 5%;
-        height: 20%;
-        position: relative;
-        float: left;
-        transform: translate(10%, -10%);
+
+        width: 10%;
+
+        max-width: 15%;
+
+       
+
+        position: fixed;
+
+        top: 14%;
+
+        left: 0%;
+
+            
+
+    } 
+
+    
+
+    .sidenav 
+
+    {
+
+        height: 100%;
+
+        width: 0;
+
+        position: fixed;
+
+        z-index: 1;
+
+        top: 0;
+
+        left: 0;
+
+        background-color: whitesmoke;
+
+        overflow-x: hidden;
+
+        transition: 0.5s;
+
+        padding-top: 60px;
+
     }
 
-    .fa-twitter, .fa-facebook 
+          
+
+    .sidenav a 
+
     {
-        color: white;
-        position: relative;
-        float: right;
-        transform: translate(-50%, 10%);
-        padding: 1px;
+
+        padding: 8px 8px 8px 32px;
+
+        text-decoration: none;
+
+        font-size: 25px;
+
+        color: #818181;
+
+        display: block;
+
+        transition: 0.3s;
+
     }
+
+          
+
+    .sidenav a:hover 
+
+    {
+
+        color: #f1f1f1;
+
+    }
+
+          
+
+    .sidenav .closebtn
+
+    {
+
+        position: absolute;
+
+        top: 0;
+
+        right: 25px;
+
+        font-size: 36px;
+
+        margin-left: 50px;
+
+    }
+
+          
 
     #main 
+
     {
-        font-size:20px;
+
+        font-size:30px;
+
         cursor:pointer;
+
         position: fixed;
+
+        top: 17%;
+
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        transition: margin-left .5s;
+
+        padding-right: 2%;
+
+        padding-left: 2%;
+
+        padding-bottom: 2%;
+
+        padding-top: 2%;
+
+        color: grey;
+
+    }
+
+    
+
+    .fa 
+
+    {
+
+       
+
+        font-size: 100%;
+
+        /* width: 50px; */
+
+        max-width: 20%;
+
+        text-align: center;
+
+        text-decoration: none;
+
+        margin: 0% 0%;
+
+    }
+
+    
+
+    .fa:hover 
+
+    {
+
+        opacity: 0.7;
+
+    }
+
+    
+
+    
+
+    .fa-twitter 
+
+    {
+
+        background: #55ACEE;
+
+    }
+
+    
+
+    .fa-facebook 
+
+    {
+
+        background: #3B5998;
+
+    }
+
+    
+
+    .fa-twitter 
+
+    {
+
+        color: white;
+
+        position: fixed;
+
+        right: 14%;
+
         top: 14%;
+
+        padding: 0%;
+
+    }
+
+
+
+    .fa-facebook 
+
+    {
+
+        color: white;
+
+        position: fixed;
+
+        right: 0%;
+
+        top: 14%;
+
+        padding: 0%;
+
+    }
+
+    
+
+    /* Slideshow container */
+
+    .slideshow-container 
+
+    {
+
+        max-width: 100%;
+
+        position: relative;
+
+        margin: auto;
+
+      }
+
+    
+
+      /* Next & previous knappar */
+
+      .prev, .next 
+
+      {
+
+        cursor: pointer;
+
+        position: fixed;
+
+        top: 52%;
+
+        width: 1%;
+
+        color: white;
+
+        font-weight: bold;
+
+        transition: 0.6s ease;
+
+      }
+
+    
+
+      /* Sätt position för nästa samt tidigare */
+
+      .next 
+
+      {
+
+        right: 5%;
+
+      }
+
+    
+
+      .prev 
+
+      {
+
+        left: 5%;
+
+      }
+
+    
+
+      /* 
+
+      * RGB(x,y,z,a)
+
+      * a besktiver opacity
+
+      */
+
+      .prev:hover, .next:hover 
+
+      {
+
+        background-color: rgba(0,0,0,0.8);
+
+      }
+
+    
+
+    
+
+    /* ----- Fading animation ----- */
+
+    .fade 
+
+    {
+
+        -webkit-animation-name: fade;
+
+        -webkit-animation-duration: 1.5s;
+
+        animation-name: fade;
+
+        animation-duration: 1.5s;
+
+    }
+
+    
+
+    @-webkit-keyframes fade 
+
+    {
+
+        from {opacity: .4}
+
+        to {opacity: 1}
+
+    }
+
+    
+
+    @keyframes fade 
+
+    {
+
+        from {opacity: .4}
+
+        to {opacity: 1}
+
+    }
+
+    
+
+    .slider_pic
+
+    {
+
+        position: fixed;
+
+        top: 52%;
+
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        max-width: 80%;
+
+        height: 50%;
+
+        z-index: -1;
+
+    }
+
+}
+
+
+
+* {box-sizing: border-box}
+
+
+
+    body {font-family: Verdana, sans-serif; margin:0}
+
+    
+
+    .mySlides {display: none}
+
+    
+
+    img {vertical-align: middle;}
+
+    
+
+    body
+
+    {
+
+        background-color: #303030;
+
+    }
+
+    
+
+    .Searchbar 
+
+    {
+
+        overflow: hidden;
+
+        position: fixed;
+
+        top: 0%;
+
+        right: 0%;
+
+        max-width: 80%;
+
+          
+
+    } 
+
+    
+
+    .Textkontakt
+
+    {
+
+        color: white;
+
+        position: fixed;
+
+        top: 0%;
+
+        left: 0%;
+
+    }
+
+    
+
+    button
+
+    {
+
+        position: fixed;
+
+        top: 6%;
+
+        right: 0%;    
+
+    }
+
+    
+
+    .linje1 
+
+    {
+
+        position: fixed;
+
+        top: 10%;
+
+        left: 0%;
+
+        width: 100%;
+
+        height: 1%;
+
+        background-color: white;
+
+    }
+
+        
+
+    .linje2 
+
+    {
+
+        position: fixed;
+
+        top: 22%;
+
+        left: 0%;
+
+        width: 100%;
+
+        height: 2%;
+
+        background-color: white;
+
+        
+
+    
+
+    }
+
+    
+
+    .logga 
+
+    {
+
+        width: 5%;
+
+        max-width: 10%;
+
+       
+
+        position: fixed;
+
+        top: 12%;
+
+        left: 0%;
+
+            
+
+    } 
+
+    
+
+    .sidenav 
+
+    {
+
+        height: 100%;
+
+        width: 0;
+
+        position: fixed;
+
+        z-index: 1;
+
+        top: 0;
+
+        left: 0;
+
+        background-color: whitesmoke;
+
+        overflow-x: hidden;
+
+        transition: 0.5s;
+
+        padding-top: 60px;
+
+    }
+
+          
+
+    .sidenav a 
+
+    {
+
+        padding: 8px 8px 8px 32px;
+
+        text-decoration: none;
+
+        font-size: 25px;
+
+        color: #818181;
+
+        display: block;
+
+        transition: 0.3s;
+
+    }
+
+          
+
+    .sidenav a:hover 
+
+    {
+
+        color: #f1f1f1;
+
+    }
+
+          
+
+    .sidenav .closebtn
+
+    {
+
+        position: absolute;
+
+        top: 0;
+
+        right: 25px;
+
+        font-size: 36px;
+
+        margin-left: 50px;
+
+    }
+
+          
+
+    #main 
+
+    {
+
+        font-size:30px;
+
+        cursor:pointer;
+
+        position: fixed;
+
+        top: 17%;
+
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        transition: margin-left .5s;
+
+        padding-right: 2%;
+
+        padding-left: 2%;
+
+        padding-bottom: 2%;
+
+        padding-top: 2%;
+
+        color: grey;
+
+    }
+
+    
+
+    .fa 
+
+    {
+
+        /*padding: 10px; */
+
+        font-size: 100%;
+
+        /* width: 50px; */
+
+        max-width: 20%;
+
+        text-align: center;
+
+        text-decoration: none;
+
+        margin: 0% 1%;
+
+    }
+
+    
+
+    .fa:hover 
+
+    {
+
+        opacity: 0.7;
+
+    }
+
+    
+
+    
+
+    .fa-twitter 
+
+    {
+
+        background: #55ACEE;
+
+    }
+
+    
+
+    .fa-facebook 
+
+    {
+
+        background: #3B5998;
+
+    }
+
+    
+
+    .fa-twitter 
+
+    {
+
+        color: white;
+
+        position: fixed;
+
+        right: 3%;
+
+        top: 14%;
+
+        padding: 1%;
+
+    }
+
+
+
+    .fa-facebook 
+
+    {
+
+        color: white;
+
+        position: fixed;
+
+        right: 0%;
+
+        top: 14%;
+
+        padding: 1%;
+
+    }
+
+    
+
+    /* Slideshow container */
+
+    .slideshow-container 
+
+    {
+
+        max-width: 100%;
+
+        position: relative;
+
+        margin: auto;
+
+      }
+
+    
+
+      /* Next & previous knappar */
+
+      .prev, .next 
+
+      {
+
+        cursor: pointer;
+
+        position: fixed;
+
+        top: 52%;
+
+        width: 1%;
+
+        color: white;
+
+        font-weight: bold;
+
+        transition: 0.6s ease;
+      }
+
+    
+
+      /* Sätt position för nästa samt tidigare */
+
+      .next 
+
+      {
+        right: 5%;
+      }
+
+    
+
+      .prev 
+
+      {
+        left: 5%;
+      }
+
+    
+
+      /* 
+
+      * RGB(x,y,z,a)
+
+      * a besktiver opacity
+
+      */
+
+      .prev:hover, .next:hover 
+
+      {
+
+        background-color: rgba(0,0,0,0.8);
+
+      }
+
+    
+
+    
+
+    /* ----- Fading animation ----- */
+
+    .fade 
+
+    {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    
+
+    @-webkit-keyframes fade 
+
+    {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    
+
+    @keyframes fade 
+    {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    
+
+    .slider_pic
+
+    {
+        position: fixed;
+        top: 52%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition: margin-left .5s;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        color: grey;
+        max-width: 80%;
+        height: 50%;
+        z-index: -1;
     }
-}
