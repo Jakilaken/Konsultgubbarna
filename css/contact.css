@@ -42,7 +42,7 @@ display: table;
     .col-s-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 3000px)
 {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%}
@@ -56,15 +56,6 @@ display: table;
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-
-    .fot
-    { 
-        text-align: center;
-        background-color: green;
-        position: absolute;
-        width: 99%;
-        bottom: 0;
-    }
 }
 
 .fot
