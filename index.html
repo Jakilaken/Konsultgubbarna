@@ -1,90 +1,187 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
 <!-- Head -->
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="HandheldFriendly" content="true">
+
+
+
     <!-- Links -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./css/index.css">
 
+
+
     <!-- Scripts -->
+
     <!-- <script src="./scripts/index.js"></script> -->
 
+
+
     <!-- Title -->
+
     <title>Home</title>
+
 </head>
 
+
+
 <!-- Body -->
+
 <body>
+
     <!-- Sök meny -->
+
     <button>Sök</button>
+
     <section class="Searchbar">
+
         <input type="text" placeholder="Sök här...">
+
     </section>
 
+
+
     <!-- Kontakt-länk -->
+
     <header class="Textkontakt" onclick="window.location.href='./pages/contact.html'">
+
         <h6> <u>Kontaktinformation</u> </h6>
+
     </header>
 
+
+
     <!-- Vit linje -->
+
     <div class="linje1">
-        <hr />
+
+        <!-- <hr/> --><p>_</p>
+
     </div>
+
     <div class="linje2">
-        <!-- <hr />  -->
+
+        <!-- <hr/> --><p>_</p>
+
     </div>
+
+
 
     <!-- Logga -->
+
     <img class="logga" src="./images/Consultlogga.png" alt="Logga">
 
+
+
     <!-- Meny / "Burger" / Slider -->
+
     <main class="sliderbar">
+
         <nav id="mySidenav" class="sidenav">
+
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
             <a href="#">Hem</a>
+
             <a href="./pages/innehåll.html">Innehåll</a>
+
             <a href="./pages/about.html">Om oss</a>
+
             <a href="./pages/contact.html">Kontakt</a>
+
         </nav>
 
+
+
         <!-- Pop up menu -->
+
         <aside id="main">
+
             <span onclick="openNav()">&#9776;</span>
+
         </aside>
 
+
+
         <!-- Social media -->
-        <a href="#" class="fa fa-facebook"></a>
+
+        <!-- <a href="#" class="fa fa-facebook"></a> -->
+
         <a href="#" class="fa fa-twitter"></a>
 
+
+
         <!-- Slider -->
+
         <figure class="slideshow-container">
+
             <figure class="mySlides fade">
+
                 <figure class="numbertext"></figure>
+
                 <img class="slider_pic" src="./images/Sliderbild3.jpg">
+
                 <figure class="text"></figure>
+
             </figure>
 
+
+
             <figure class="mySlides fade">
+
                 <figure class="numbertext"></figure>
+
                 <img class="slider_pic" src="./images/Sliderbild1.jpg">
+
                 <figure class="text"></figure>
+
             </figure>
 
+
+
             <figure class="mySlides fade">
+
                 <figure class="numbertext"></figure>
+
                 <img class="slider_pic" src="./images/Sliderbild2.jpg">
+
                 <figure class="text"></figure>
+
             </figure>
+
             <script src="./scripts/index.js"></script>
+
             <!-- Knappar på slider -->
+
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </figure>
+
     </main>
+
 </body>
+
 </html>
